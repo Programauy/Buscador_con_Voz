@@ -86,7 +86,7 @@ else
 
 function start(event)
 {
-    for(i = event.resultIndex; i< event.results.length; i++) 
+    for(i = event.resultIndex; i< event.results.length +1; i++) 
     {
         document.querySelector("#txtSearch").value = event.results[i][0].transcript;
     }
